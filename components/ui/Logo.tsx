@@ -5,12 +5,13 @@ import kvslogo from '@/public/images/kvs_logo.png';
 export default function Logo() {
   return (
     <Link href="/" className="inline-block">
-      <div className="relative w-28 h-10"> {/* Adjust size as needed */}
+      <div className="relative w-40 h-14">
         <Image
           src={kvslogo}
           alt="KVS Techflow Logo"
           fill
           style={{ objectFit: 'contain' }}
+          className="w-full h-full"
           priority
         />
       </div>
